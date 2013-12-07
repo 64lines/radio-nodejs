@@ -1,0 +1,16 @@
+doctype 5
+html
+	head
+		title Chat
+		script(src='js/scripts/jquery-1.9.1.min.js')
+		script(src="/socket.io/socket.io.js")
+		script(src="/app/script.js")
+	body
+		div.container
+			header
+				h1 Socket-Radio
+				audio(controls)#audioElement
+					source(src="/sound/Yuuhei Satellite - Boukyaku no Retrospective (Sokubaku Anemonation).mp3", type="audio/mpeg")
+				br
+				button#playMusic.
+					Play Music
